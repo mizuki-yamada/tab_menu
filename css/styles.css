@@ -17,4 +17,23 @@ body {
 .menu li a{
     display: inline-block;
     width: 100px;
+    text-align: center;
+    padding: 8px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu li a.active{
+    background-color: #333;
+    color: #fff;
+}
+
+.content.active{
+    background-color: #333;
+    color: #fff;
+    display: block;
+}
+
+.content{
+    display: none;
 }
